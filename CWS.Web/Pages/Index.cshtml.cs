@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CWS.Web.Pages.Shared;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CWS.Web.Pages
@@ -15,6 +16,7 @@ namespace CWS.Web.Pages
         public void OnGet()
         {
             var account = new CWS.DemoLib1.Account();
+            var platic = new DemoLib1.Plastic();
         }
     }
 }
