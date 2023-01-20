@@ -16,7 +16,7 @@ namespace CWS.Web.Pages
         public void OnGet()
         {
             var account = new CWS.DemoLib1.Account();
-            var platic = new DemoLib1.Plastic();
+            var platic = new DemoLib1.Plastic() { PlasticId = 1 };
         }
     }
 }
