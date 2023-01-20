@@ -14,7 +14,7 @@ namespace CWS.Web.Pages
 
         public void OnGet()
         {
-
+            var account = new CWS.DemoLib1.Account();
         }
     }
 }

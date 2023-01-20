@@ -1,0 +1,4 @@
+[submodule "external/CWS.DemoLib1"]
+	path = external/CWS.DemoLib1
+	url = C:/_GIT/CWS.SubRoot/modules/CWS.DemoLib1
+	branch = master
